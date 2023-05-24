@@ -46,7 +46,7 @@ inquirer
     },
     {
       type: 'input',
-      message: `Entrez la position initiale et la direction de l'iHoover au format "direction x y" (par exemple 1 2 N) :`,
+      message: `Entrez la position initiale et la direction de l'iHoover au format "direction x y" (par exemple 5 5 N) :`,
       name: 'initialPosition',
       validate: validateInitialPosition,
     },
@@ -73,7 +73,7 @@ inquirer
       const result = hoover.executeCommands(maxX, maxY, commands);
 
       console.log(
-        `Final position: x=${result.x} y=${result.y} direction=${result.direction}`,
+        `Position finale: x=${result.x} y=${result.y} direction=${result.direction}`,
       );
     } catch (err: any) {
       console.error(err.message);
