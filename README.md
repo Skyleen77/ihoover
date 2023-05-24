@@ -8,10 +8,16 @@ Tout d'abord, ouvrez votre terminal et clonez le projet :
 git clone https://github.com/Skyleen77/ihoover.git
 ```
 
+Entrez dans le dossier du projet :
+
+```bash
+cd ihoover
+```
+
 Installez les dépendances :
 
 ```bash
-npm install
+npm i
 # or
 yarn
 ```
